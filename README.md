@@ -6,8 +6,7 @@ npm install fontawesome-express
 
 In app.js
 ```
-var fontawesome = require("fontawesome-express");
-express.use(fontawesome({
+var fontawesome = require("fontawesome-express")(app, {
   baseDir: "/",
   cssDir: "/css",
   optimize: true
