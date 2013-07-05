@@ -1,0 +1,25 @@
+{
+  "name": "fontawesome-express",
+  "version": "0.0.0",
+  "description": "Automatic loading of font-awesome icons through express-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k88hudson/fontawesome-express"
+  },
+  "keywords": [
+    "font-awesome",
+    "fontawesome",
+    "express",
+    "bootstrap"
+  ],
+  "author": "Kate Hudson (@k88hudson)",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~3.2.5",
+    "font-awesome": "git://github.com/k88hudson/Font-Awesome.git#c2c24944bd"
+  },
+}
